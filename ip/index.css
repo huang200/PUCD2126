@@ -2,6 +2,14 @@
 	margin: 0;
 	padding: 0;
 }
+.wrap{
+	position: relative;
+	margin: 0;
+	padding: 55px 50px;
+	width: 100%;
+	height: 690px;
+	background-color: #262625;
+}
 .box{
 	position: relative;
 	width: 100%;

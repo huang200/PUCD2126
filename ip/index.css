@@ -2,57 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-.wrap{
-	position: relative;
-	margin: 0;
-	padding: 55px 50px;
-	width: 100%;
-	height: 690px;
-	background-color: #262625;
-}
-.x,
-.y{
-	box-sizing: border-box;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	color: #ccc;
-	font-size: 30px;
-}
-
-.y{
-	left: 10px;
-	padding: 159px 0 55px;
-	width: 40px;
-	height: 100%;
-}
-.y ul{
-	width: 40px;
-}
-.x{
-	bottom: 5px;
-	padding-left: 50px;
-	height: 40px;
-	width: 100%;
-}
-.x ul{
-	height: 40px;
-}
-.x li,
-.y li{
-	list-style: none;
-	text-align: center;
-}
-.x li{
-	float: left;
-	display: inline-block;
-	margin-left: 256px;
-	line-height: 40px;
-}
-.y li{
-	margin-bottom: 114px;
-	text-align: left;
-}
 .box{
 	position: relative;
 	width: 100%;
@@ -104,10 +53,10 @@
 	background-image: url(bg-down.png);
 }
 .starOverlayDown{
-	z-index: 19;	
+	z-index: 19;
 }
 .starOverlayUp{
-	z-index: 29;	
+	z-index: 29;
 }
 .star{
 	position: absolute;
@@ -157,7 +106,3 @@
 	margin-top: 5px;
 	margin-left: 8px;
 }
-
-
-
-

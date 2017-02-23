@@ -1,0 +1,46 @@
+body {
+    background-color: #262625;
+    background-image:url("bg.png");
+}
+
+#text{
+  font-family: futura;
+  color:white;
+  font-size:20px;
+  line-height:50px;
+  margin-top: 25%;
+}
+
+.text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.planet {
+    display: block;
+    top: 80%;
+    left: 45%;
+    width: 100;
+    height: 100;
+    background-image:url("star3.png");
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-indent:100%;
+    white-space: nowrap;
+    position: absolute;
+    animation-name: planet3;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+  @keyframes planet3 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }

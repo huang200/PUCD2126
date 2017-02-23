@@ -1,3 +1,18 @@
 body {
     background-color: #262625;
 }
+.text{
+  font-family: futura;
+  color:white;
+  font-size:20px;
+  line-height:50px;
+  position: fixed;
+  top: 200;
+  left: 50%;
+  margin: 0;
+  padding: 10px;
+  width: 300px;
+  height: 130px;
+  overflow: hidden;
+  margin: 100px;
+}

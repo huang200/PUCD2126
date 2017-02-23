@@ -1,7 +1,6 @@
 body {
     background-color: #262625;
-    background-image:url("bg-up.png");
-        background-image:url("bg-down.png");
+    background-image:url("bg.png");
 
 }
 
@@ -10,8 +9,7 @@ body {
   color:white;
   font-size:20px;
   line-height:50px;
-  top: 60%;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .text {

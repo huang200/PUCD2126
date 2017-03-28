@@ -1,0 +1,44 @@
+body {
+    background-color: #1b2e45;
+    font-family: Futura;
+   	color: white;
+   	letter-spacing: 2px;
+}
+
+
+
+
+
+
+h2 {
+margin-left: 50px;
+max-width: 1000px;
+position: relative;
+color: #6EFCBB;
+font-weight: bold;
+font-size: 18pt;
+font-family: futura;
+line-height: 20px;
+letter-spacing: 3px;
+animation: hueRotate 5s linear infinite;
+}
+
+h1 {
+margin-left: 50px;
+max-width: 1000px;
+position: relative;
+color: #6EFCBB;
+font-weight: bold;
+font-size: 36pt;
+font-family: futura;
+line-height: 20px;
+animation: hueRotate 5s linear infinite;
+}
+
+@keyframes hueRotate {
+  0% { filter: hue-rotate(0deg);
+  ; }
+  50% { filter: hue-rotate(180deg); }
+  100% { filter: hue-rotate(359deg); }
+}
+>>>>>>> Stashed changes

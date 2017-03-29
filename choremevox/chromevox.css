@@ -7,11 +7,21 @@ body {
 
 
 
-
+h3 {
+margin-left: 50px;
+max-width: 1000px;
+position: relative;
+color: #6EFCBB;
+font-weight: bold;
+font-size: 18pt;
+font-family: futura;
+line-height: 20px;
+letter-spacing: 3px;
+}
 
 
 h2 {
-margin-left: 250px;
+margin-left: 50px;
 max-width: 1000px;
 position: relative;
 color: #6EFCBB;

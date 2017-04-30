@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  background-color: #3c3c3c;
+  color: #fff;
+  list-style-type: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*pseudo-classes*/
+.nav a:hover {
+  color:#FF00FF;
+}
+
+/*pseudo-elements*/
+p:first-line {color: #0000FF;}
+
+/*combinators*/
+ h1 + h2{
+  color:red;
+}
+
+.full-bleed {
+  background: url('pic/bg.png');
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-position: bottom center;
+  background-size: 100%;
+}
+/*flex-direction: column*/
+#flex{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+/* <p> wrap around the <img> element */
+#wrap{
+  float: left;
+}
+
+/* for-phone-only */
+@media (max-width: 599px) {
+
+/*flex-direction: column*/
+#flex{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}  
+
+}
+
+/* for-tablet-portrait-up */
+@media (min-width: 600px) { 
+
+/*flex-direction: column*/
+#flex{
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+}
+
+}
+
+/* for-tablet-landscape-up */
+@media (min-width: 900px) { 
+
+/*flex-direction: column*/
+#flex{
+  display: flex;
+  flex-direction: column-reverse;
+  list-style: none;
+}  
+
+}
